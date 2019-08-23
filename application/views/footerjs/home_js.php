@@ -1,15 +1,8 @@
+<script src="<?php echo base_url();?>assets/js/vendor.min.js"></script>
+    <script src="<?php echo base_url();?>assets/js/elephant.min.js"></script>
+    <script src="<?php echo base_url();?>assets/js/application.min.js"></script>
+    <script src="<?php echo base_url();?>assets/js/demo.min.js"></script>
 
-</body>
+  </body>
 
 </html>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-<script>
-$(document).ready(function(){
-  $('ul li a').click(function(){
-    $('li a').removeClass("active");
-    $(this).addClass("active");
-});
-});
-
-</script>
